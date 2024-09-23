@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "word-count-calculator",
+  "version": "1.0.0",
+  "description": "this is the package for counting the words from any given file. you simply have to mention the file name with the command and it will give you the total occurrances of the specified word give by the user or all the word count present in the file.",
+  "main": "app.js",
+  "bin": {
+    "my-cli": "./app.js"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "word",
+    "counter"
+  ],
+  "author": "sahaj ranipa",
+  "license": "ISC"
+}
